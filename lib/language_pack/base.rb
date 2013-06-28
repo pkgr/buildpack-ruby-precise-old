@@ -12,7 +12,7 @@ Encoding.default_external = Encoding::UTF_8 if defined?(Encoding)
 class LanguagePack::Base
   include LanguagePack::ShellHelpers
 
-  VENDOR_URL = "https://s3.amazonaws.com/heroku-buildpack-ruby"
+  VENDOR_URL = "https://buildpack-ruby-precise.pkgr.io.s3.amazonaws.com"
 
   attr_reader :build_path, :cache
 
